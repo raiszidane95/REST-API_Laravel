@@ -8,6 +8,4 @@ class mahasiswaModel extends Model
 {
     protected $guarded = [];
     protected $table = ['mahasiswa'];
-   
-
 }

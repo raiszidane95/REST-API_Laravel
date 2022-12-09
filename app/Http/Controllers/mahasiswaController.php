@@ -10,7 +10,7 @@ class mahasiswaController extends Controller
     public function index(){
 
         $mahasiswa = mahasiswaModel::all();
-        dd($mahasiswa);
+
         return response()->json(['message'=>'success','data'=>$mahasiswa]);
 
     }
